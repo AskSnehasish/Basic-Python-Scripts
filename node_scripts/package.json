@@ -1,0 +1,11 @@
+{
+  "name": "basic-python-scripts",
+  "version": "1.0.0",
+  "description": "Basic Python Scripts with data passing from Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Snehasish Nayak",
+  "license": "MIT"
+}
