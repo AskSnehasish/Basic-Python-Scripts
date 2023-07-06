@@ -36,4 +36,9 @@ tables = read_ppt('../data/'+ file_name)
 # Let's print the first table as an example
 if tables:
     # print(json.dumps(tables[0]))
-    print(tables[0].to_json(orient='columns'))
+    table_list = []
+    count = 0
+    for table in tables:
+        table_list.append(table.to_json(orient='columns'))
+    
+    print(table_list)
